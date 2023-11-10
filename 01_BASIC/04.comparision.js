@@ -22,4 +22,23 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
+// Stack and Heap memory in javascript--------
+// Stack(primitive), Heap(non-primitive)
+
+let myYoutubename="biswanath"
+let anothername =myYoutubename
+anothername="BeDaily"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email:"user@google.coom",
+    upi:"user@ybl"
+}
+let userTwo=userOne
+userTwo.email="biswanath@google.com"
+console.log(userOne.email);
+cinsole.log(userTwo.email);
+
 
